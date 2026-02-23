@@ -24,16 +24,6 @@ A responsive music streaming web application inspired by Spotify, built using HT
 
 ---
 
-## 📸 Screenshots
-(Add your screenshots here)
-
-Example:
-
-![Home](screenshots/home.png)  
-![Player](screenshots/player.png)
-
----
-
 ## 💡 Learning Outcomes
 This project helped me:
 - Understand event handling in JavaScript  
@@ -42,20 +32,5 @@ This project helped me:
 - Build scalable and dynamic UI  
 - Strengthen frontend problem-solving  
 
----
 
-## 🔮 Future Improvements
-- Add shuffle and repeat features  
-- Integrate cloud storage for songs  
-- Add volume control  
-- Create a full-stack version with authentication  
 
----
-
-## 🤝 Connect With Me
-- LinkedIn: (your LinkedIn link)  
-- GitHub: (your GitHub profile)
-
----
-
-⭐ If you liked this project, please give it a star!
