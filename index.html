@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"> <img src="spotify.png" alt="spotify"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    
+    <div id = "container">
+       
+        <div class="songList">
+               <h1>Best of NCS - No Copyrigth Sounds</h1>
+
+                <div class="songitemcontainer"> 
+               <div class="songItem"> 
+                  <img src="covers/1.png" alt="1">
+                 
+            <span class = "songName">Let me Love you</span>
+            <span class = "songListplay"> <span class="timestamp"> 5:36 <i id = "0" class="fa-solid fa-play playsongList"></i></span></span>
+        </div>
+
+        <div class="songItem"> 
+                  <img src="covers/2.png" alt="1">
+                 
+            <span class = "songName">Let me Love you</span>
+            <span class = "songListplay"> <span class="timestamp"> 4:36 <i id ="1" class="fa-solid fa-play playsongList "></i></span></span>
+        </div>
+        <div class="songItem"> 
+                  <img src="covers/3.png" alt="1">
+                 
+            <span class = "songName">Let me Love you</span>
+            <span class = "songListplay"> <span class="timestamp"> 5:36 <i id ="2" class="fa-solid fa-play playsongList"></i></span></span>
+        </div>
+        <div class="songItem"> 
+                  <img src="covers/4.png" alt="1">
+                 
+            <span class = "songName">Let me Love you</span>
+            <span class = "songListplay"> <span class="timestamp"> 5:46 <i id = "3" class="fa-solid fa-play playsongList"></i></span></span>
+        </div>
+        <div class="songItem"> 
+                  <img src="covers/5.png" alt="1">
+                 
+            <span class = "songName">Let me Love you</span>
+            <span class = "songListplay"> <span class="timestamp"> 5:36 <i id = "4" class="fa-solid fa-play playsongList"></i></span></span>
+        </div>
+        <div class="songItem"> 
+                  <img src="covers/6.png" alt="1">
+                 
+            <span class = "songName">Let me Love you</span>
+            <span class = "songListplay"> <span class="timestamp"> 5:00 <i id = "5" class="fa-solid fa-play playsongList"></i></span></span>
+        </div>
+        <div class="songItem"> 
+                  <img src="covers/7.png" alt="1">
+                 
+            <span class = "songName">Let me Love you</span>
+            <span class = "songListplay"> <span class="timestamp"> 4:36 <i id = "6" class="fa-solid fa-play playsongList"></i></span></span>
+        </div>
+        <div class="songItem"> 
+                  <img src="covers/8.png" alt="1">
+                 
+            <span class = "songName">Let me Love you</span>
+            <span class = "songListplay"> <span class="timestamp"> 4:50 <i id ="7" class="fa-solid fa-play playsongList"></i></span></span>
+        </div>
+        </div>
+        </div>
+    </div>
+        
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range",name="range" id="myprogressBar" min="0" max="100">
+    <!-- type is make it slider iname is for backend id is css unique min and max ae slider values extend -->
+    <span id = "songnameletter"> songname </span>
+   
+    <div class="icons">
+        <!-- //fontawesomeicons -->
+       <i class="fa-solid fa-backward " id = "back"></i>
+       <i class="fa-solid fa-circle-play " id = "masterplay"></i>
+        <i class="fa-solid fa-forward " id ="next"></i>
+           </div>
+           
+    </div>
+    
+ 
+    
+</body>
+<script src="script.js"></script>
+</html>
